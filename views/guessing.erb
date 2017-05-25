@@ -10,7 +10,7 @@
 
 <center><h2><font color = #42f480> <%=message%><font color = red><%=message2%></h2><center>
 
-<p><center><input type="text" name="letter" autofocus></p>
+<p><center><input type="text" name="letter" autofocus maxlength="1" onkeyup="this.value = this.value.replace(/[^a-zA-Z]/, '')" ></p>
 <p><center><input type="submit" value="Enter Guess"/></p>
 
 
